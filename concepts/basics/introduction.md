@@ -48,12 +48,14 @@ class Calculator {
 Invoking/calling a method is done by specifying its class and method name and passing arguments for each of the method's parameters.
 
 ```java
-int sum = new Calculator().add(1, 2);  // here the  "add" method has been called to perform the task of addition
+int sum = new Calculator().add(1, 2);  // here the  "add" method has been invoked to perform the task of addition
 ```
 
 Scope in Java is defined between the `{` and `}` characters.
 
-Java supports two types of comments.
-Single line comments are preceded by `//` and multiline comments are inserted between `/*` and `*/`.
+Java supports three types of comments.
+-Single line comments are preceded by `//`
+-multiline comments are inserted between `/*` and `*/`.
+-Documentation comments `/**` and `*/` and are used to generate API documentation using the Javadoc tool.
 
 [object-oriented-programming]: https://docs.oracle.com/javase/tutorial/java/javaOO/index.html
